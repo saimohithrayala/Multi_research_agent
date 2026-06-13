@@ -2,7 +2,7 @@ import uvicorn
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.concurrency import run_in_threadpool
-from pipeline import run_pipeline
+from backend.pipeline import run_pipeline
 
 app = FastAPI(title="Multi-Agent Research System API")
 
