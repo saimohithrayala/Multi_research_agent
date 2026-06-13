@@ -27,7 +27,7 @@ const AGENTS = [
   },
 ];
 
-const API_URL = "http://127.0.0.1:8000/api/research";
+const API_URL = "https://multi-research-agent.onrender.com";
 
 function parseCritic(feedback) {
   if (!feedback) return null;
