@@ -106,9 +106,9 @@ export default function App() {
     }, timers[0]);
 
     try {
-      const res = await fetch(
-        `${API_URL}?topic=${encodeURIComponent(topic)}`,
-        { method: "POST" }
+  const res = await fetch(
+  ` ${API_URL}/api/research?topic=${encodeURIComponent(topic)}`, 
+  { method: "POST" }
       );
       const data = await res.json();
       if (!res.ok || data.status !== "success") {
