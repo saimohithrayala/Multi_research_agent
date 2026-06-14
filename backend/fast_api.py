@@ -9,7 +9,7 @@ app = FastAPI(title="Multi-Agent Research System API")
 # Configure CORS so your React frontend can communicate with the backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins= ["https://multi-research-agent-12jsmb5cd-sai-mohith-s-projects.vercel.app"],  
+    allow_origins= ["https://multi-research-agent-git-main-sai-mohith-s-projects.vercel.app"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
